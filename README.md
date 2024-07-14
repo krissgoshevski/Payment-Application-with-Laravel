@@ -1,4 +1,4 @@
- This is e-commerce site powered by a Vue SPA and Laravel API, which takes payments through Stripe using Laravel Cashier package.
+ This is e-commerce site powered by a Vue SPA and Laravel API, which takes payments through Stripe & Cashier Laravel package.
 
  SkILLS: Vue JS, Laravel, Tailwind CSS, HTML, MySQL DB.
 
