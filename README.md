@@ -1,3 +1,17 @@
+ This is e-commerce site powered by a Vue SPA and Laravel API, which takes payments through Stripe using Laravel Cashier package.
+
+ SkILLS: Vue JS, Laravel, Tailwind CSS, HTML, MySQL DB.
+
+- Seeding database with fake products and categories using Faker and Seeder with Laravel
+- Migrations and Data Structure
+- Populating a Vue frontend application with products from our API
+- Collecting user location and credit card information
+- Making charges to a customer's payment method with Stripe and Cashier packages
+- Processing a Payment
+
+ 
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
