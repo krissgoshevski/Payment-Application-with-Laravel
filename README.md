@@ -9,6 +9,58 @@
 - Making charges to a customer's payment method with Stripe and Cashier packages
 - Processing a Payment
 
+
+Commands for this project below:
+
+php artisan make:model Product --migration
+php artisan make:model Category --migration
+php artisan make:model Order --migration
+php artisan make:migration create_order_product_table --table=order_product
+php artisan make:migration create_category_product_table --table=category_product
+php artisan make:factory ProductFactory --model=Factory
+php artisan make:factory CategoryFactory --model=Category
+
+php artisan migrate
+dcr artisan migrate // for dockerization laravel
+
+php artisan make:controller UserController
+php artisan make:controller ProductController
+
+
+
+
+composer require laravel/cashier
+
+
+
+// Vue js commands 
+npm install
+npm run dev
+npm install vuex@next vue-router@next // da napravi da go install  vuejs i da napravi router 
+
+npm install vue-router
+vo public --> mkdir css i mkdir js 
+
+
+npm install tailwindcss
+npx tailwindcss init // za da se konf tailwindcss file 
+
+npm install laravel-mix
+
+kreiran postcss.config.js // 
+mv postcss.config.js postcss.config.cjs
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+npm install --save-dev @stripe/stripe-js
+php artisan vendor:publish --tag="cashier-migrations"
+php artisan migrate
+php artisan vendor:publish --tag="cashier-config"
+
+https://dashboard.stripe.com/test/apikeys // for API KEYS FOR STRIPE PAYMENT PACKAGE 
+
  
 
 
